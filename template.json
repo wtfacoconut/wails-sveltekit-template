@@ -1,0 +1,7 @@
+{
+    "name": "Wails SvelteKit template",
+    "shortname": "wails-sveltekit-template",
+    "author": "wtfacoconut",
+    "description": "SvelteKit (v1.0+) and Svelte (v4.0+) template with TS",
+    "helpurl": "https://github.com/wtfacoconut/wails-sveltekit-template"
+  }

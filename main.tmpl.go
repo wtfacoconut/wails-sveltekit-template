@@ -21,7 +21,7 @@ func main() {
 	// Create application with options
 	// Create application with options
 	err := wails.Run(&options.App{
-		Title:             "WailsSvelteKit",
+		Title:             "{{.ProjectName}}",
 		Width:             1024,
 		Height:            768,
 		MinWidth:          1024,
@@ -68,7 +68,7 @@ func main() {
 			WebviewIsTransparent: true,
 			WindowIsTranslucent:  true,
 			About: &mac.AboutInfo{
-				Title:   "WailsSvelteKit",
+				Title:   "{{.ProjectName}}",
 				Message: "",
 			},
 		},

@@ -1,8 +1,8 @@
 {
-  "name": "WailsSvelteKit",
+  "name": "{{.ProjectName}}",
   "version": "0.0.0",
   "type": "module",
-  "author": "Mike",
+  "author": "{{.AuthorName}}",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
